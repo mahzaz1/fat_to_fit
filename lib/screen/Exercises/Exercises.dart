@@ -1,5 +1,5 @@
 import 'package:fat_to_fit/Utils/Strings/Bicep.dart';
-import 'package:fat_to_fit/Utils/Strings/Calfs.dart';
+import 'package:fat_to_fit/Utils/Strings/Calves.dart';
 import 'package:fat_to_fit/Utils/Strings/Cardio.dart';
 import 'package:fat_to_fit/Utils/Strings/Chest.dart';
 import 'package:fat_to_fit/Utils/Strings/Forearm.dart';
@@ -52,6 +52,7 @@ class _ExercisesState extends State<Exercises> {
                                       muscleUsed: Lists.muscleUsedList[index],
                                       gameLevel: Lists.levelsList[index],
                                       gameEquipments: Lists.equipmentsList[index],
+                                  gameDec: Lists.decList[index],
                                     )));
                       },
                       child: Image.asset(Lists.exercises[index]));

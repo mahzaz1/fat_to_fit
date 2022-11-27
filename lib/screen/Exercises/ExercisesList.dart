@@ -13,6 +13,7 @@ class ExercisesList extends StatelessWidget {
     required this.muscleUsed,
     required this.gameLevel,
     required this.gameEquipments,
+    required this.gameDec,
   }) : super(key: key);
 
   String appBarTitle;
@@ -21,6 +22,7 @@ class ExercisesList extends StatelessWidget {
   List<dynamic> muscleUsed;
   List<dynamic> gameLevel;
   List<dynamic> gameEquipments;
+  List<dynamic> gameDec;
 
 
 
@@ -73,6 +75,7 @@ class ExercisesList extends StatelessWidget {
                                                     muscleUsed: muscleUsed[index],
                                                     equipments: gameEquipments[index],
                                                     level: gameLevel[index],
+                                                    dec: gameDec[index],
                                                   )));
                                     },
                                     child: Container(
@@ -88,9 +91,24 @@ class ExercisesList extends StatelessWidget {
                                   )
                                 ],
                               ),
-                              Image(
-                                image: AssetImage(gameGif[index]),
-                                width: width * .22,
+                              GestureDetector(
+                                onTap: (){
+                                  showDialog(context: context, builder: (_)=> Dialog(
+                                    shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
+                                    backgroundColor: ColorSet.primaryColor,
+                                    child: ClipRRect(
+                                      borderRadius: BorderRadius.circular(20),
+                                      child: Image(
+                                        image: AssetImage(gameGif[index]),
+                                        fit: BoxFit.cover,
+                                      ),
+                                    ),
+                                  ));
+                                },
+                                child: Image(
+                                  image: AssetImage(gameGif[index]),
+                                  width: width * .22,
+                                ),
                               )
                             ],
                           ),

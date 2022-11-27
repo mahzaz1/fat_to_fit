@@ -16,7 +16,7 @@ class Assets {
   static const String ExercisesABS = 'assets/images/Exercises/ABS.png';
   static const String ExercisesBack = 'assets/images/Exercises/Back.png';
   static const String ExercisesBicep = 'assets/images/Exercises/Bicep.png';
-  static const String ExercisesCalfs = 'assets/images/Exercises/Calfs.png';
+  static const String ExercisesCalves = 'assets/images/Exercises/Calfs.png';
   static const String ExercisesCardio = 'assets/images/Exercises/Cardio.png';
   static const String ExercisesChest = 'assets/images/Exercises/Chest.png';
   static const String ExercisesForearm = 'assets/images/Exercises/Forearm.png';

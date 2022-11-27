@@ -1,7 +1,7 @@
 import 'Strings/ABS.dart';
 import 'Strings/Back.dart';
 import 'Strings/Bicep.dart';
-import 'Strings/Calfs.dart';
+import 'Strings/Calves.dart';
 import 'Strings/Cardio.dart';
 import 'Strings/Chest.dart';
 import 'Strings/Forearm.dart';
@@ -18,7 +18,7 @@ class Lists{
     "assets/images/Exercises/ABS.png",
     "assets/images/Exercises/Back.png",
     "assets/images/Exercises/Legs.png",
-    "assets/images/Exercises/Calfs.png",
+    "assets/images/Exercises/Calves.png",
     "assets/images/Exercises/Forearm.png",
     "assets/images/Exercises/Cardio.png",
   ];
@@ -31,7 +31,7 @@ class Lists{
     'ABS',
     'Back',
     'Legs',
-    'Calfs',
+    'Calves',
     'Forearms',
     'Cardio'
   ];
@@ -44,7 +44,7 @@ class Lists{
     AbsSet.absGameName,
     BackSet.backGameName,
     LegsSet.legsGameName,
-    CalfsSet.calfsGameName,
+    CalvesSet.calvesGameName,
     ForearmSet.forearmGameName,
     CardioSet.cardioGameName,
   ];
@@ -57,7 +57,7 @@ class Lists{
     AbsSet.absGameGif,
     BackSet.backGameGif,
     LegsSet.legsGameGif,
-    CalfsSet.calfsGameGif,
+    CalvesSet.calvesGameGif,
     ForearmSet.forearmGameGif,
     CardioSet.cardioGameGif,
   ];
@@ -65,27 +65,28 @@ class Lists{
   static List<List> muscleUsedList = [
     ChestSet.chestGameMuscle,
     BicepSet.bicepGameMuscle,
-    ChestSet.chestGameMuscle,
-    ChestSet.chestGameMuscle,
-    ChestSet.chestGameMuscle,
-    ChestSet.chestGameMuscle,
-    ChestSet.chestGameMuscle,
-    ChestSet.chestGameMuscle,
-    ChestSet.chestGameMuscle,
-    ChestSet.chestGameMuscle,
+    TricepSet.tricepGameMuscle,
+    ShoulderSet.shoulderGameMuscle,
+    AbsSet.absGameMuscle,
+    BackSet.backGameMuscle,
+    LegsSet.legsGameMuscle,
+    CalvesSet.calvesGameMuscle,
+    ForearmSet.forearmGameMuscle,
+    CardioSet.cardioGameMuscle
   ];
 
   static List<List> equipmentsList = [
     ChestSet.chestGameEquipment,
     BicepSet.bicepGameEquipments,
-    ChestSet.chestGameEquipment,
-    ChestSet.chestGameEquipment,
-    ChestSet.chestGameEquipment,
-    ChestSet.chestGameEquipment,
-    ChestSet.chestGameEquipment,
-    ChestSet.chestGameEquipment,
-    ChestSet.chestGameEquipment,
-    ChestSet.chestGameEquipment,
+    TricepSet.tricepGameEquipments,
+    ShoulderSet.shoulderGameEquipments,
+    AbsSet.absGameEquipments,
+    BackSet.backGameEquipments,
+    LegsSet.legsGameEquipments,
+    CalvesSet.calvesGameEquipments,
+    ForearmSet.forearmGameEquipments,
+    CardioSet.cardioGameEquipments
+
   ];
 
   static List<List> levelsList = [
@@ -96,8 +97,24 @@ class Lists{
     AbsSet.absGameLevel,
     BackSet.backGameLevel,
     LegsSet.legsGameLevel,
-    CalfsSet.calfsGameLevel,
+    CalvesSet.calvesGameLevel,
     ForearmSet.forearmGameLevel,
     CardioSet.cardioGameLevel
   ];
+
+  static List<List> decList = [
+    ChestSet.gameDec,
+    BicepSet.gameDec,
+    TricepSet.gameDec,
+    ShoulderSet.gameDec,
+    AbsSet.gameDec,
+    BackSet.gameDec,
+    LegsSet.gameDec,
+    CalvesSet.gameDec,
+    ForearmSet.gameDec,
+    CardioSet.gameDec,
+];
+
+
+
 }
