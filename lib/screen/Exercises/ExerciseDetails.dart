@@ -26,8 +26,7 @@ class ExerciseDetail extends StatelessWidget {
     var width = MediaQuery.of(context).size.width;
     return Scaffold(
       appBar: AppBar(
-        title: Text(gameName),
-      ),
+        title: Text(gameName)),
       body: Stack(
         children: [
           Image.asset(
@@ -117,7 +116,10 @@ class ExerciseDetail extends StatelessWidget {
                   ),
                   Text(
                     'How to do :',
-                    style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold, ),
+                    style: TextStyle(
+                      fontSize: 20,
+                      fontWeight: FontWeight.bold,
+                    ),
                   ),
                   SizedBox(
                     height: height * .02,

@@ -2,7 +2,7 @@ import 'package:fat_to_fit/Utils/Strings/Color.dart';
 import 'package:flutter/material.dart';
 import 'package:google_nav_bar/google_nav_bar.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'Calculator.dart';
+import 'Calculator/Calculator.dart';
 import 'Diet.dart';
 import 'Exercises/Exercises.dart';
 import 'Tips.dart';
@@ -21,9 +21,9 @@ class _HomeState extends State<Home> {
 
   static Set<Widget> _widgetOptions = <Widget>{
     Exercises(),
+    Calculator(),
     Tips(),
     Diet(),
-    Calculator(),
 
   };
 
